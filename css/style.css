@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gill Sans, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#25fdf6, #000000);
+    border-bottom: 3px solid #000000;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(white, #25fdfd, black);
+    border-bottom: 3px solid black;
+    margin-top: 5% ;
+    height: 50px;
+
+}
+
+.footer a {
+    font-size: 2vw;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.footer a:hover{
+    color: #484747;
+}
+
+.logo_text {
+    padding: 5px 10px;
+    margin-left: 30px;
+    color: #111111;
+}
+
+.logo_text a {
+    text-indent: 35px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo_text a:hover{
+    color: #484747;
+}
+
+.logo_text h1 a {
+    color: black;
+
+}
+
+
+.auth_header a {
+    color: white;
+    padding: 10px;
+    line-height: 70px;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+.auth_header a:hover{
+    color: #484747;
+}
+
+.section_book {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 20px;
+    background: linear-gradient(#25f6fd, #ffffff);
+    border-top: 3px solid black;
+}
+
+.section_book_text {
+    margin: 0 20px;
+
+}
+
+.section_book_text p {
+    text-indent: 25px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.section_book_img {
+    margin: 5px 5px 5px 5px;
+
+}
+
+.section_book_img img {
+    height: 200px;
+    border: 4px solid #000000;
+}
+
+.login {
+    margin: 20% 30% 20% 30%;
+    border: 5px solid black;
+    height: 150px;
+}
+
+.auth {
+    display: flex;
+    justify-content: center;
+
+}
+
+.auth_body {
+    display: flex;
+    justify-content: center;
+}
+.info_book{
+    justify-content: right;
+    text-decoration: underline;
+}
+.info_book a:hover {
+    color: rgb(0, 247, 255);
+}

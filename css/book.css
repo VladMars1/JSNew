@@ -1,0 +1,36 @@
+.love_book{
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 20px;
+    background: linear-gradient(#25fdf6, #ffffff);
+    border-top: 3px solid black;
+}
+.love_book hr{
+    margin: 15px;
+    height: 5px;
+    background-color: red;
+
+}
+.love_book h4{
+    text-decoration: underline;
+    color: #5e7ad5;
+    font-size: 12px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+}
+.love_book_img {
+    margin: 5px 5px 5px 5px;
+
+
+}
+
+.love_book_img img {
+    height: 200px;
+    border: 4px solid #000000;
+}
+.love_book_content{
+    display: flex;
+
+}
+
