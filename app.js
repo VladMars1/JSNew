@@ -164,7 +164,7 @@ function z8() {
         default:
             alert("Це не день тижня")
             break
-1
+
     }
 }
 
